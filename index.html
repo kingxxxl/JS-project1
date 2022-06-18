@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>GenBot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script src="index.js"></script>
+<body>
+
+
+<div class="container">
+    <div class="row text-center ">
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card card-block d-flex">
+                <div class="card-body align-items-center justify-content-center">
+                    <h5 class="card-title">Random Digit (0-9)</h5>
+                    <a onclick="showDigit();" class="btn btn-primary ">Generate</a>
+                    <div id="gen-digit">
+                        <p class="card-text bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        /-->
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card card-block d-flex">
+                <div class="card-body align-items-center justify-content-center">
+                    <h5 class="card-title">Random Number</h5>
+                    <a onclick="showNumber();" class="btn btn-primary ">Generate</a>
+                    <div id="gen-number">
+                        <p class="card-text bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        /-->
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card card-block d-flex">
+                <div class="card-body align-items-center justify-content-center">
+                    <h5 class="card-title">Random Name</h5>
+                    <a onclick="showName();" class="btn btn-primary ">Generate</a>
+                    <div id="gen-name">
+                        <p class="card-text bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card card-block d-flex">
+                <div class="card-body align-items-center justify-content-center">
+                    <h5 class="card-title">Random Color</h5>
+                    <a onclick="showColor();" class="btn btn-primary ">Generate</a>
+                    <div id="gen-color">
+                        <p id="flgg" class="card-text bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--        /-->
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card card-block d-flex ">
+                <div class="card-body align-items-center justify-content-center">
+                    <h5 class="card-title">Random Flag</h5>
+                    <a onclick="showFlag();" class="btn btn-primary ">Generate</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 text-center my-auto">
+            <div class="card  card-block d-flex ">
+                <div class="card-body  align-items-center justify-content-center">
+                    <div id="gen-flag">
+                        <p class="card-text bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
